@@ -2,6 +2,8 @@ package bet.betting.betting.entity;
 
 import lombok.*;
 
+import java.time.LocalDateTime;
+
 @Getter
 @Setter
 @NoArgsConstructor
@@ -12,4 +14,6 @@ public class BettingMessage {
     private String roomId;
     private String sender;
     private String message;
+    private String userDisplayName;
+    private String bettingAt;
 }
